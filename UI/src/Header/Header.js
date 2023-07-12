@@ -16,8 +16,8 @@ export default function Header() {
 				              <li><a><Link to="/admin" className="nav-link scrollto" id="hover">Home</Link></a></li>
 				              <li className="dropdown"><a className="nav-link" id="hover"><span>Settings</span> <i className="bi bi-chevron-down"></i></a>
 				                <ul>
-				                  <li><a href="/password">Update Password</a></li>
-				                  <li><a href="/profile">Update Profile</a></li>
+				                  <li><a href="/password" id="padding"><Link to="/password" className="nav-link scrollto">Update Password</Link></a></li>
+				                  <li><a href="/profile" id="padding"><Link to="/profile" className="nav-link scrollto">Update Profile</Link></a></li>
 				                </ul>
 				              </li>
 				              <li><a href="/managestaff"><Link to="/managestaff" className="nav-link scrollto" id="hover">Manage Staff</Link></a></li>
@@ -42,6 +42,12 @@ export default function Header() {
 				              <li><a><Link to="/user" className="nav-link scrollto" id="hover">Home</Link></a></li>
 				              <li><a><Link to="/registerstudent" className="nav-link scrollto" id="hover">Register Students</Link></a></li>
 				              <li><a><Link to="/managestudent" className="nav-link scrollto" id="hover">Manage Students</Link></a></li>
+				              <li className="dropdown"><a className="nav-link" id="hover"><span>Settings</span> <i className="bi bi-chevron-down"></i></a>
+				                <ul>
+				                  <li><a href="/password" id="padding"><Link to="/password" className="nav-link scrollto">Update Password</Link></a></li>
+				                  <li><a href="/teacherprofile" id="padding"><Link to="/teacherprofile" className="nav-link scrollto">Update Profile</Link></a></li>
+				                </ul>
+				              </li>
 				              <li><a href="/login"><Link to="/logout" className="nav-link scrollto" id="hover">Logout</Link></a></li>
 				            </ul>
 				            <i className="bi bi-list mobile-nav-toggle"></i>
