@@ -1,0 +1,23 @@
+.contain {
+	padding: 10px;
+	min-height: 200px;
+	border: 1px solid;
+}
+form {
+	font-size: 17px;
+}
+table {
+	width: 50%;
+}
+form input, select{
+	font-size: 17px;
+	padding: 5px;
+}
+select {
+	width: 74%;
+}
+textarea {
+	font-family: arial;
+	font-size: 17px;
+	padding: 5px;
+}

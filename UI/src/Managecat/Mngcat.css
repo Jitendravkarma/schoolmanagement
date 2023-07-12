@@ -1,0 +1,11 @@
+.contain {
+	padding: 10px;
+	min-height: 200px;
+	border: 1px solid;
+}
+.dltcat {
+	display: block;
+	padding: 10px;
+	background-color: red;
+	color: white;
+}

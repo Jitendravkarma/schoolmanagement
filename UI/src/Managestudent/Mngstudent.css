@@ -1,0 +1,10 @@
+.contain1 {
+	padding: 10px;
+	min-height: 200px;
+	border: 1px solid;
+	text-align: center;
+}
+.table {
+	width: 70%;
+	margin: auto;
+}
